@@ -12,3 +12,5 @@ CTM uses the Python sockets module to create a UDP connection on the local netwo
 ## Setup
 Nothing too crazy, just install the `client.py` script onto the Pico, update the WLAN credentials, and run the `server.py` script on whatever system is meant to log the temperature. 
 On start, the `server.py` script asks for a name for the project. This is to quickly reference whatever it was you were monitoring at the time. It'll be written as a `.json` file in the local directory.
+
+![alt text](https://github.com/jake-springer/Chamber-Temp-Monitor/blob/main/CTM.jpg?raw=true)
